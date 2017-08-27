@@ -8,7 +8,7 @@ body, html{
 .menu{
 	background-color: #FF66FF;
 	background: rgba(255,102,255,0.6);
-	margin-top: 100px;
+	margin-top: 120px;
 	height: 60px;
 	padding: 5px 0px 0px 0px;
 		
@@ -32,15 +32,52 @@ body, html{
 }
 
 a{
+	color: black;
+	text-decoration: none;
 	
+}
+		/*links não visitados*/
+h1,h4 a:link{
+	text-decoration: none;
+}
+		/*links visitados*/
+h1,h4 a:visited{
+	text-decoration: none;
+}
+		/*links hover*/
+h1,h4 a:hover{
+	color: black;
+	text-decoration: none;
+
+}
+	
+		/*links active*/
+h1,h4 a:active{
+	text-decoration: none;
 }
 li a{
 	font-size: 23px;
 	color: black;
-	text-decoration: none;
+	
 	
 }
 /*TIPOGRAFIA*/
 p{
 	margin-top: 10px;
+}
+.alinhamento-banner{
+	display: flex !important;
+	justify-content: center !important;
+
+}
+
+header h1{
+	font-size: 70px;
+	margin-bottom: 0px;
+	
+}
+header h4{
+	font-size: 17px;
+	margin-top: 0px;
+	
 }
