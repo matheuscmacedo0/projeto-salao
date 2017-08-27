@@ -1,0 +1,33 @@
+body{
+	background: #FFCCFF;
+	font-family: Helvetica,Arial,sans-serif;
+
+}
+
+.menu{
+	background-color: #FF66FF;
+	background: rgba(255,102,255,0.6);
+	margin-top: 100px;
+	height: 60px;
+	padding: 5px 0px 0px 0px;
+		
+}
+.nav{
+	display: flex !important;
+	justify-content: center !important;
+	width: 100%;
+
+	
+
+}
+
+
+/*TIPOGRAFIA*/
+a{
+	
+}
+li a{
+	font-size: 23px;
+	text-decoration: none;
+	
+}
