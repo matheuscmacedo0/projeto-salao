@@ -43,13 +43,27 @@ body, html{
 	background: white;
 	margin: 50px 0px 0px 50px;
 	padding: 5px 5px 5px 5px;
-	height: 300px;
+	height: 100%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px 1px #FF66FF;
 	-webkit-box-shadow: 1px 1px 1px 1px #FF66FF;
 	-webkit-box-shadow: 1px 1px 1px 1px #FF66FF;
 }
 .area-conteudo:hover{
+	box-shadow: 3px 3px 23px 3px #FF66FF;
+	-webkit-box-shadow: 3px 3px 23px 3px #FF66FF;
+}
+.area-conteudo-mini{
+	background: white;
+	margin: 50px 0px 0px 50px;
+	padding: 5px 5px 5px 5px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px #FF66FF;
+	-webkit-box-shadow: 1px 1px 1px 1px #FF66FF;
+	-webkit-box-shadow: 1px 1px 1px 1px #FF66FF;
+}
+.area-conteudo-mini:hover{
 	box-shadow: 3px 3px 23px 3px #FF66FF;
 	-webkit-box-shadow: 3px 3px 23px 3px #FF66FF;
 }
