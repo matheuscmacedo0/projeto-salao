@@ -79,6 +79,13 @@ body, html{
 	float: left;
 	margin: 20px
 }
+	/*TITULO DA POSTAGEM PRINCIPAL*/
+.titulo-postagem{
+	margin-left: 30px;
+}
+.lista-postagem{
+	list-style: none;
+}
 
 		/*LINKS*/
 a{
